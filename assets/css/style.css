@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+/* ------- Farben --------    
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+-------------------------- */
+
+/* Font-family
+    Lato
+    Merriweather
+*/
+
+/* ===== Allgemein ===== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: #202020;
+}
+
+/* ============= HEADER =============== */
+
+/* ==== NAVBAR ==== */
+
+header section nav ul{
+    text-align: right;
+    color: #4D4D4D;
+
+}
+header section nav ul li{ 
+    display: inline-block;
+    padding: 1.5%;
+    font-family: Lato;
+}
+
+header section nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ==== HEADER H1, P und Bild ==== */
+
+header div{
+    background: url(../img/illustration1.gif) right/contain no-repeat;
+    padding: 5% 5% 15% 0;
+    margin: 0% 0vw 0 10%;
+    background-size: 42%;
+}
+
+header div h1{
+    padding: 0% 0 1.5% 0;
+    margin: 5% 0 0 0;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    width: 550px;
+    color: #202020;
+}
+
+header div p{
+    font-size: 22px;
+    font-weight: lighter;
+    color: #4D4D4D;
+    width: 550px;
+    line-height: 40px;
+    padding: 0 0 2.5% 0;
+}
+
+header div span:nth-of-type(1){
+    border: 1px solid black;
+    padding: 15px 24px;
+    margin: 0% 0 0 0;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+header div span:nth-of-type(2){
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 3px;
+    padding: 15px 24px;
+    border-radius: 5px;
+    margin: 0 0 0 10px;
+}
+
+/* ===================================== */
+
+/* ============ MAIN ============ */
+
+/* ==== SEKTION NR1 ==== */
+
+/* ARTICLE NR1 */
+
+main > section:nth-of-type(1){
+    padding: 10% 0 0% 10%;
+}
+
+main section:nth-of-type(1) article:nth-of-type(1){
+    background: url(../img/illustration2.png) left/contain no-repeat;
+    padding: 1% 1% 8% 0%;
+    background-size: 33%;
+}
+
+main section:nth-of-type(1) article:nth-of-type(1) h2{
+    text-align: left;
+    padding: 0 0 10px 0;
+    margin: 20vh 0 0 40vw;
+    max-width: 45vw;
+}
+
+main section:nth-of-type(1) article:nth-of-type(1) p{
+    margin: 2vh 9vw 0 40vw;
+    text-align: left;
+    color: #4D4D4D;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+/* ARTICLE NR2 */
+
+main section:nth-of-type(1) article:nth-of-type(2){
+    background: url(../img/illustration3.png) right/contain no-repeat;
+    padding: 1% 1% 5% 0%;
+    background-size: 40%;
+    margin: 10% 10% 0 0;
+}
+
+main section:nth-of-type(1) article:nth-of-type(2) h2{
+    text-align: left;
+    padding: 0 0 10px 0;
+    margin: 20vh 40vw 0 1vw;
+    max-width: 45vw;
+}
+
+main section:nth-of-type(1) article:nth-of-type(2) p{
+    margin: 2vh 45vw 0 1vw;
+    text-align: left;
+    color: #4D4D4D;
+    line-height: 40px;
+    font-size: 22px;
+
+}
+
+/* ==== SEKTION NR2 ==== */
+
+main>section:nth-of-type(2){
+    text-align: center;
+    padding: 15% 0% 0 0;
+}
+
+main>section:nth-of-type(2) img{
+    width: 30%;
+    margin: 0 0 0 2%;
+}
+
+main>section:nth-of-type(2) p:first-child{
+    font-size: 3.5rem;
+    color: #202020;
+}
+
+main>section:nth-of-type(2) p:last-of-type{
+    text-align: center;
+    padding: 2% 0% 5% 19%;
+    width: 80vw;
+    color: #585858;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+/* =========== ARTICLE NR1  ========= */
+
+main article{
+    text-align: center;
+    margin: 0;
+}
+
+main>article>p:nth-of-type(1){
+    font-size: 3.5rem;
+    padding: 10% 0 1px 0;
+    color: #202020;
+}
+
+main>article>p:nth-of-type(2){
+    text-align: center;
+    padding: 2% 0% 0% 23%;
+    width: 76vw;
+    color: #585858;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+main article section img{
+    max-width: 650px;
+/*     padding: 8% 3% 0 3%; */
+    margin: 2%;
+}
+
+main article section{
+    padding: 1% 0%;
+    margin: 2% 0%
+}
+
+main>article>p:nth-of-type(3){
+    font-size: 3.5rem;
+    padding: 10% 0 1px 0;
+    color: #202020;
+}
+
+main>article>p:nth-of-type(4){
+    text-align: center;
+    margin: 0 auto;
+    padding: 2% 0% 0% 0%;
+    width: 52vw;
+    color: #585858;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+/* === MEMBERSHIP === */
+
+main article div{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #F5FBFE;
+    margin: 2% 38%;
+    padding: 2% 0 5% 0;
+}
+
+main article div ul{
+    list-style-type: none;
+    color: #272727;
+    padding: 0 0 12% 0;
+}
+
+main article div p:nth-of-type(1){
+    font-size: 3.5vh;
+    color: #202020;
+    padding: 10% 0 5% 0;
+    font-weight:  bold;
+}
+
+main article div p:nth-of-type(2){
+    font-size: 8vh;
+    padding: 10%;
+    color: #202020;
+}
+
+main article div p:nth-of-type(3){
+    font-size: 3vh;
+    padding: 10%;
+    color: #757779;
+}
+
+main article div ul li{
+    padding: 1%;
+}
+
+main article div span{
+    border: 1px solid #4CC0F3;
+    padding: 4.5% 16%;
+    background-color: #4CC0F3;
+    color:#fff;
+    border-radius: 5px;
+}
+
+/* =========== FOOOOOOOOTER ============== */
+
+footer h2, footer p{
+    text-align: center;
+}
+
+footer h2{
+    padding: 10% 0 3% 0;
+}
+
+footer p{
+    line-height: 40px;
+}
+
+footer p:nth-of-type(odd){
+    color: lightgrey;
+}
+
+footer ul{
+    text-align: center;
+    margin: 2% 0 1% 0;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 1%;
+}
+
+/* ICONS */
+
+.fa-facebook-square{
+    color: #3b5998;
+}
+
+.fa-instagram-square{
+    color: #fcaf45;
+}
+
+.fa-twitter-square{
+    color: #55acee;
+}
+
+.fa-youtube-square{
+    color: #c4302b;
+}
+
+/* ========== */
+
+/* HOOOOOVAAAAAAAA */
+
+section img:hover{
+    box-shadow: 0px 0px 4px;
+}

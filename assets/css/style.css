@@ -59,7 +59,7 @@ header div h1{
     margin: 5% 0 0 0;
     font-size: 3.5rem;
     font-weight: lighter;
-    width: 550px;
+    width: 38vw;
     color: #202020;
 }
 
@@ -67,7 +67,7 @@ header div p{
     font-size: 22px;
     font-weight: lighter;
     color: #4D4D4D;
-    width: 550px;
+    width: 38vw;
     line-height: 40px;
     padding: 0 0 2.5% 0;
 }
@@ -196,8 +196,7 @@ main>article>p:nth-of-type(2){
 }
 
 main article section img{
-    max-width: 650px;
-/*     padding: 8% 3% 0 3%; */
+    max-width: 45.13vw;
     margin: 2%;
 }
 
@@ -225,9 +224,8 @@ main>article>p:nth-of-type(4){
 /* === MEMBERSHIP === */
 
 main article div{
-    border: 1px solid lightgray;
     border-radius: 5px;
-    background-color: #F5FBFE;
+    background-color: rgb(110,210,235, 0.1);
     margin: 2% 38%;
     padding: 2% 0 5% 0;
 }
@@ -262,8 +260,8 @@ main article div ul li{
 }
 
 main article div span{
-    border: 1px solid #4CC0F3;
-    padding: 4.5% 16%;
+/*     border: 1px solid #4CC0F3; */
+    padding: 4.5% 16%; 
     background-color: #4CC0F3;
     color:#fff;
     border-radius: 5px;
@@ -271,7 +269,7 @@ main article div span{
 
 /* =========== FOOOOOOOOTER ============== */
 
-footer h2, footer p{
+footer h2, footer p, footer ul{
     text-align: center;
 }
 
@@ -288,7 +286,6 @@ footer p:nth-of-type(odd){
 }
 
 footer ul{
-    text-align: center;
     margin: 2% 0 1% 0;
 }
 
